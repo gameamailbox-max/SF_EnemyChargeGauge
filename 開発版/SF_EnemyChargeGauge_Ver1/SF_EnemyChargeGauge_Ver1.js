@@ -4,8 +4,8 @@
  * @author 巣ごもり梟
  *
  * @help
- * SF_EnemyChargeGauge.js
- * Version: 1.0.1
+SF_EnemyChargeGauge_Ver1.js
+Version: 1.0.1
  *
  * タイムプログレスバトル（TPB）時、
  * 各エネミー画像の下部にチャージタイムゲージを表示します。
@@ -102,7 +102,7 @@
  *
  * ファイル名は
  *
- * SF_EnemyChargeGauge.js
+ * SF_EnemyChargeGauge_Ver1.js
  *
  * から変更しないでください。
  *
@@ -138,20 +138,6 @@
  * @desc すべてのエネミーに適用する縦方向の基準オフセットです。
  * @default 8
  *
- * ■ Ver1.0.1での変更
- *
- * 行動不能中のCTゲージ表示を変更しました。
- * 行動不能になった時点のゲージ値を保持する方式ではなく、
- * バトラーの実際のTPBチャージタイムをそのまま表示します。
- *
- * SF_TPBWaitingInLine_Ver1 Ver1.0.0と併用した場合は、
- * 行動不能中も進行する実CTとCTゲージ表示が同期します。
- *
- * ■ 更新履歴
- *
- * Ver1.0.1
- * ・行動不能中のCTゲージを実CTと同期する仕様へ変更。
- *
  */
 
 (() => {
@@ -163,7 +149,7 @@
     //=========================================================================
 
     const pluginName =
-        "SF_EnemyChargeGauge";
+        "SF_EnemyChargeGauge_Ver1";
 
     const parameters =
         PluginManager.parameters(pluginName);
